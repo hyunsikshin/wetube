@@ -1,0 +1,22 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Cloning Youtube with Valilla and NodeJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyunsikshin/wetube.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Hyunsik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyunsikshin/wetube/issues"
+  },
+  "homepage": "https://github.com/hyunsikshin/wetube#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
