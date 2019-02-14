@@ -1,8 +1,8 @@
-export const join = (req, res) => res.send('join');
-export const login = (req, res) => res.send('login');
-export const logout = (req, res) => res.send('logout');
+export const join = (req, res) => res.render('join');
+export const login = (req, res) => res.render('login');
+export const logout = (req, res) => res.render('logout');
 
-export const users = (req, res) => res.send('users');
-export const users_detail = (req, res) => res.send('users_detail');
-export const edit_profile = (req, res) => res.send('edit_profile');
-export const change_password = (req, res) => res.send('change_password');
+export const users = (req, res) => res.render('users');
+export const users_detail = (req, res) => res.render('users_detail');
+export const edit_profile = (req, res) => res.render('edit_profile');
+export const change_password = (req, res) => res.render('change_password');
