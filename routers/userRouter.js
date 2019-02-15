@@ -2,9 +2,9 @@ import express from 'express';
 import routes from '../routes';
 import {
   users,
-  users_detail,
   edit_profile,
   change_password,
+  users_detail,
 } from '../controllers/userController';
 
 const userRouter = express.Router();
