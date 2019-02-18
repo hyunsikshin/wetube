@@ -5,8 +5,6 @@ export const login = (req, res) => res.render('login', { pageTitle: 'Login' });
 export const logout = (req, res) =>
   res.render('logout', { pageTitle: 'Logout' });
 
-export const users = (req, res) => res.render('users', { pageTitle: 'Users' });
-
 export const edit_profile = (req, res) =>
   res.render('edit_profile', { pageTitle: 'Edit Profile' });
 
